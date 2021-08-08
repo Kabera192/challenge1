@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    margin-left: 100px;
+}
+
+.container div {
+    /* border: 3px solid red; */
+    /* padding: 20px;*/
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 10px; 
+    height: 65vh;
+    width: 20%;
+    
+}
+
+.sedan img {
+    /* border: 3px solid red; */
+    width: 60px;
+    margin-left: 25px;
+}
+
+p {
+    /* border: 3px solid red;  */
+    padding-top: 5px;
+    padding-bottom: 50px;
+    margin-left: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.sedan a {
+    align-self: center;
+    padding: 10px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    /* border: 3px solid red; */
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-left: 25px;
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+}
+
+.sedan {
+    display: flex; 
+    flex-direction: column;
+    border-radius: 7px 0px 0px 7px;
+    margin-left: 200px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+
+.suv {
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 5px 0px; */
+    background-color: hsl(184, 100%, 22%);
+}
+
+.suv a {
+    align-self: center;
+    padding: 10px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    color: hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+}
+
+.suv img {
+    width: 60px;
+    margin-left: 25px;
+}
+
+.luxury {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 7px 7px 0px;
+    margin-right: 100px;
+    background-color: hsl(179, 100%, 13%);
+}
+
+.luxury a {
+    align-self: center;
+    padding: 10px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    color: hsl(179, 100%, 13%);
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+}
+
+.luxury img {
+    width: 60px;
+    margin-left: 25px;
+}
+
+.sedan a:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.suv a:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.luxury a:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
