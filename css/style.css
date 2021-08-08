@@ -9,14 +9,28 @@ body {
     font-size: 15px;
 }
 
+p {
+    padding-top: 5px;
+    padding-bottom: 50px;
+    margin-left: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+h2 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-left: 25px;
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+}
+
 .container {
     display: flex;
     margin-left: 100px;
 }
 
 .container div {
-    /* border: 3px solid red; */
-    /* padding: 20px;*/
     margin-top: 100px;
     padding-top: 30px;
     padding-bottom: 20px;
@@ -27,19 +41,13 @@ body {
     
 }
 
-.sedan img {
-    /* border: 3px solid red; */
-    width: 60px;
-    margin-left: 25px;
-}
-
-p {
-    /* border: 3px solid red;  */
-    padding-top: 5px;
-    padding-bottom: 50px;
-    margin-left: 25px;
-    font-family: 'Lexend Deca', sans-serif;
-    color: hsla(0, 0%, 100%, 0.75);
+/* Design for the SEDAN card link, hover and image */
+.sedan {
+    display: flex; 
+    flex-direction: column;
+    border-radius: 7px 0px 0px 7px;
+    margin-left: 200px;
+    background-color: hsl(31, 77%, 52%);
 }
 
 .sedan a {
@@ -55,28 +63,21 @@ p {
     text-align: center;
 }
 
-h2 {
-    /* border: 3px solid red; */
-    padding-top: 30px;
-    padding-bottom: 10px;
-    margin-left: 25px;
-    font-family: 'Big Shoulders Display', cursive;
-    color: hsl(0, 0%, 95%);
-}
-
-.sedan {
-    display: flex; 
-    flex-direction: column;
-    border-radius: 7px 0px 0px 7px;
-    margin-left: 200px;
+.sedan a:hover {
     background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
 }
 
+.sedan img {
+    width: 60px;
+    margin-left: 25px;
+}
 
+/* Design for the SUV card link, hover and image */
 .suv {
     display: flex;
     flex-direction: column;
-    /* border-radius: 5px 0px; */
     background-color: hsl(184, 100%, 22%);
 }
 
@@ -93,11 +94,18 @@ h2 {
     text-align: center;
 }
 
+.suv a:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
 .suv img {
     width: 60px;
     margin-left: 25px;
 }
 
+/* Design for the LUXURY card link, hover and image */
 .luxury {
     display: flex;
     flex-direction: column;
@@ -119,25 +127,13 @@ h2 {
     text-align: center;
 }
 
-.luxury img {
-    width: 60px;
-    margin-left: 25px;
-}
-
-.sedan a:hover {
-    background-color: hsl(31, 77%, 52%);
-    color: hsl(0, 0%, 95%);
-    border: 2px solid hsl(0, 0%, 95%);
-}
-
-.suv a:hover {
-    background-color: hsl(184, 100%, 22%);
-    color: hsl(0, 0%, 95%);
-    border: 2px solid hsl(0, 0%, 95%);
-}
-
 .luxury a:hover {
     background-color: hsl(179, 100%, 13%);
     color: hsl(0, 0%, 95%);
     border: 2px solid hsl(0, 0%, 95%);
+}
+
+.luxury img {
+    width: 60px;
+    margin-left: 25px;
 }
